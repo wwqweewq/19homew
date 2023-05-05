@@ -1,0 +1,11 @@
+header {
+    padding-top: 45px;
+    margin-bottom: 30px;
+    .container{
+        display: flex;
+        column-gap: 30px;
+        @media (max-width: 650px) {
+            justify-content: space-between;
+        }
+    }
+}
